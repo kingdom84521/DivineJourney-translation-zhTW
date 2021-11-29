@@ -16,7 +16,7 @@
     {
         "singleplayer":
         {
-            "text" : "",
+            "text" : " ",
             "texture" : "mainmenu:singleplayer.png",
             "posX" : -245,
             "posY" : 95,
@@ -31,7 +31,7 @@
         },        
         "multiplayer":
         {
-            "text" : "",
+            "text" : " ",
             "posX" : -245,
             "posY" : 122,
             "width" : 224,
@@ -46,7 +46,7 @@
         },    		
         "options":
         {
-            "text" : "",
+            "text" : " ",
             "posX" : -245,
             "posY" : 149,
             "width" : 224,
@@ -61,7 +61,7 @@
         },     
         "mods":
         {
-            "text" : "",
+            "text" : " ",
             "posX" : -245,
             "posY" : 176,
             "width" : 224,
@@ -76,7 +76,7 @@
         },	
         "version_history":
         {
-            "text" : "",
+            "text" : " ",
             "posX" : -245,
             "posY" : 203,
             "width" : 224,
@@ -91,7 +91,7 @@
         },         
         "discord":
         {
-            "text" : "",
+            "text" : " ",
             "posX" : -245,
             "posY" : 230,
             "width" : 62,
@@ -107,7 +107,7 @@
         },	 
         "language":
         {
-            "text" : "",
+            "text" : " ",
             "posX" : -183,
             "posY" : 230,
             "width" : 62,
@@ -123,7 +123,7 @@
         },   
         "quit_game":
         {
-            "text" : "",
+            "text" : " ",
             "posX" : -121,
             "posY" : 230,
             "width" : 100,
@@ -137,7 +137,7 @@
         },	
         "refresh":
         {
-            "text" : "",
+            "text" : " ",
             "posX" : -20,
             "posY" : 0,
             "width" : 20,
@@ -200,7 +200,7 @@
             "alignment" : "bottom_left"
 		},
 		"newsLine1":{
-			"text" : "",
+			"text" : " ",
             "posX" : -140,
             "posY" : 5,
 			"fontSize" : 1.3,
@@ -209,7 +209,7 @@
             "alignment" : "top_right"
 		},
 		"newsLine2":{
-			"text" : "",
+			"text" : " ",
             "posX" : -140,
             "posY" : 19,
 			"fontSize" : 1.3,
@@ -218,7 +218,7 @@
             "alignment" : "top_right"
 		},
 		"newsLine3":{
-			"text" : "",
+			"text" : " ",
             "posX" : -140,
             "posY" : 33,
 			"fontSize" : 0.8,
