@@ -64,12 +64,12 @@ mods.avaritia.ExtremeCrafting.addShaped("Key to Infinity", <contenttweaker:key_t
 [<avaritia:block_resource:1>,<avaritia:block_resource:1>,null,<avaritia:block_resource:1>,null,null,null,null,null]]);
 
 # Bag of Truth and Key to Infinity tooltips
-<contenttweaker:bag_of_truth_locked>.addTooltip(format.red(format.bold("LOCKED")));
-<contenttweaker:bag_of_truth_locked>.addTooltip(format.red("Requires a ") + format.lightPurple(format.bold("Key to Infinity")) + format.red(" to open."));
-<contenttweaker:bag_of_truth_locked>.addTooltip(format.red("(This is the entire goal of the modpack.)"));
-<contenttweaker:bag_of_truth_locked>.addTooltip(format.darkRed(format.italic("This is craftable, if you ever lose it.")));
-<contenttweaker:bag_of_truth_locked>.addTooltip(format.darkRed(format.italic("Warning: Crafting deletes the input bag's inventory.")));
-<contenttweaker:key_to_infinity>.addTooltip(format.red("Craft together with a ") + format.lightPurple(format.bold("Bag of Truth (Locked)")) + format.red(" to open it!"));
+<contenttweaker:bag_of_truth_locked>.addTooltip(format.red(format.bold("\u5df2\u4e0a\u9396")));
+<contenttweaker:bag_of_truth_locked>.addTooltip(format.red("\u9700\u8981 ") + format.lightPurple(format.bold("\u7121\u76e1\u4e4b\u9470")) + format.red(" \u6253\u958b."));
+<contenttweaker:bag_of_truth_locked>.addTooltip(format.red("(\u9019\u662f\u6574\u500b\u904a\u6232\u7684\u76ee\u6a19.)"));
+<contenttweaker:bag_of_truth_locked>.addTooltip(format.darkRed(format.italic("\u5982\u679c\u4f60\u5f04\u4e1f\u4e86\u5b83,\u662f\u53ef\u4ee5\u5408\u6210\u7684.")));
+<contenttweaker:bag_of_truth_locked>.addTooltip(format.darkRed(format.italic("\u8b66\u544a: \u5408\u6210\u6703\u522a\u9664\u888b\u5b50\u5167\u7684\u5132\u5b58\u7269.")));
+<contenttweaker:key_to_infinity>.addTooltip(format.red("\u5c07\u5b83\u548c ") + format.lightPurple(format.bold("\u771f\u7406\u4e4b\u888b (\u4e0a\u9396\u7684)")) + format.red(" \u5408\u6210\u5f8c\u6253\u958b!"));
 
 # Glyphs
 val glyphs = [<contenttweaker:glyph_route>,<contenttweaker:glyph_bag>,<contenttweaker:glyph_tent>,<contenttweaker:glyph_waterfall>,<contenttweaker:glyph_tongue>,<contenttweaker:glyph_scythe>,<contenttweaker:glyph_blockade>,<contenttweaker:glyph_lash>,<contenttweaker:glyph_slash>,<contenttweaker:glyph_rod>,<contenttweaker:glyph_split>,<contenttweaker:glyph_shield>,<contenttweaker:glyph_war>,<contenttweaker:glyph_cross>,<contenttweaker:glyph_stamp>,<contenttweaker:glyph_connection>,<contenttweaker:glyph_fork>,<contenttweaker:glyph_wave>,<contenttweaker:glyph_lightning>,<contenttweaker:glyph_pair>,<contenttweaker:glyph_fish>,<contenttweaker:glyph_weaving>,<contenttweaker:glyph_stand>,<contenttweaker:glyph_lion>,<contenttweaker:glyph_mirror>,<contenttweaker:glyph_electricity>] as IItemStack[];

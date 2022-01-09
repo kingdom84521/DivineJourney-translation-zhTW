@@ -146,12 +146,12 @@ recipes.addShapeless(<contenttweaker:raw_industrial_leather>, [<contenttweaker:t
 
 # Twilight Rock
 recipes.addShapeless(<contenttweaker:twilight_rock>, [<contenttweaker:baykoks_bloodied_stone>, <immersiveengineering:material:18>, <roots:stalicripe>, <ore:dyeBrown>]);
-<contenttweaker:twilight_rock>.addTooltip(format.red(format.bold("This is the item used to enter the Twilight Forest.")));
+<contenttweaker:twilight_rock>.addTooltip(format.red(format.bold("\u9019\u5c31\u662f\u7528\u4f86\u9032\u5165\u66ae\u5149\u68ee\u6797\u7684\u9053\u5177.")));
 
 # Twilight Key
 recipes.addShaped(<contenttweaker:twilight_key>, [[<ore:ingotConstantan>,<ore:nuggetConstantan>],[<ore:ingotConstantan>,null],[<contenttweaker:twilight_rock>,null]]);
-<contenttweaker:twilight_key>.addTooltip(format.red(format.bold("Only use this item if you wish to skip the Twilight Forest.")));
-<contenttweaker:twilight_key>.addTooltip(format.red(format.bold("It can be used to craft the Lamp of Cinders, which is the final item of the Twilight Forest progression.")));
+<contenttweaker:twilight_key>.addTooltip(format.red(format.bold("\u50c5\u5728\u4f60\u60f3\u8df3\u904e\u66ae\u5149\u68ee\u6797\u6642\u4f7f\u7528\u9019\u500b\u7269\u54c1.")));
+<contenttweaker:twilight_key>.addTooltip(format.red(format.bold("\u9019\u53ef\u4ee5\u7528\u4f86\u5408\u6210\u7070\u71fc\u795e\u71c8,\u66ae\u5149\u68ee\u6797\u6700\u7d42\u9032\u5ea6\u9700\u8981\u7684\u7269\u54c1.")));
 
 # Artificial Scarab Body
 recipes.addShaped(<contenttweaker:artificial_scarab_body>, [[<lightningcraft:rod:5>,<immersiveengineering:material:19>,<lightningcraft:rod:5>],[<contenttweaker:industrial_leather>,<mysticalworld:carapace>,<contenttweaker:industrial_leather>],[null,<minecraft:gold_block>,null]]);
@@ -375,7 +375,7 @@ recipes.addShapeless(<contenttweaker:mixed_mushroom_compound_block>, [<erebus:da
 
 # Hardened Ember Moosh
 recipes.addShaped(<contenttweaker:hardened_amber_moosh>, [[<erebus:amber_glass>,<contenttweaker:mixed_mushroom_compound_block>,<erebus:amber_glass>],[<contenttweaker:mixed_mushroom_compound_block>,<erebus:amber_glass>,<contenttweaker:mixed_mushroom_compound_block>],[<erebus:amber_glass>,<contenttweaker:mixed_mushroom_compound_block>,<erebus:amber_glass>]]);
-<contenttweaker:hardened_amber_moosh>.addTooltip(format.italic(format.darkPurple("Surprisingly tough!")));
+<contenttweaker:hardened_amber_moosh>.addTooltip(format.italic(format.darkPurple("\u610f\u5916\u7684\u786c!")));
 
 # Power Egg
 recipes.addShapedMirrored(<contenttweaker:power_egg>, [[<erebus:materials:27>,<erebus:materials:9>,<erebus:materials:16>],[<erebus:tarantula_egg>,<erebus:jade_block>,<erebus:antlion_egg>],[<erebus:materials:27>,<erebus:materials:9>,<erebus:materials:16>]]);
@@ -383,18 +383,18 @@ recipes.addShapedMirrored(<contenttweaker:power_egg>, [[<erebus:materials:27>,<e
 # Crown of Skies
 recipes.addShaped(<contenttweaker:crown_of_skies>, [[null,<ore:woolWhite>,null],[<contenttweaker:hardened_amber_moosh>,<contenttweaker:power_egg>,<contenttweaker:hardened_amber_moosh>],[<contenttweaker:mixed_erebusian_stone>,<contenttweaker:mixed_erebusian_stone>,<contenttweaker:mixed_erebusian_stone>]]);
 recipes.addShaped(<contenttweaker:crown_of_skies>, [[<contenttweaker:hardened_amber_moosh>,<contenttweaker:crown_of_skies>.reuse(),<contenttweaker:hardened_amber_moosh>]]);
-<contenttweaker:crown_of_skies>.addTooltip(format.red(format.bold("Right click on an Aether Portal block to gain access to the dimension!")));
-<contenttweaker:crown_of_skies>.addTooltip(format.red(format.bold("Warning: This CONSUMES the item.")));
-<contenttweaker:crown_of_skies>.addTooltip(format.white(format.bold("Can be duplicated so other team members can also use it!")));
-<contenttweaker:crown_of_skies>.addTooltip(format.white("(The duplication recipe doesn't use up the input Crown.)"));
+<contenttweaker:crown_of_skies>.addTooltip(format.red(format.bold("\u53f3\u9375\u9ede\u64ca\u5929\u5883\u50b3\u9001\u9580\u65b9\u584a\u4f86\u9032\u5165\u8a72\u7dad\u5ea6!")));
+<contenttweaker:crown_of_skies>.addTooltip(format.red(format.bold("\u8b66\u544a: \u9019\u6703\u6d88\u8017\u8a72\u7269\u54c1.")));
+<contenttweaker:crown_of_skies>.addTooltip(format.white(format.bold("\u53ef\u4ee5\u8907\u88fd\u7d66\u5176\u4ed6\u968a\u54e1\u4f7f\u7528!")));
+<contenttweaker:crown_of_skies>.addTooltip(format.white("(\u8907\u88fd\u7684\u914d\u65b9\u4e0d\u6703\u7528\u6389\u8f38\u5165\u7684\u5929\u7a7a\u4e4b\u51a0.)"));
 
 # Aether Power Core
 recipes.addShapedMirrored(<contenttweaker:aether_power_core>, [[<ore:ingotEnergeticAlloy>,<ore:blockEnergeticAlloy>,<ore:ingotEnergeticAlloy>],[<contenttweaker:bronze_aether_coin>,<contenttweaker:silver_aether_coin>,<contenttweaker:golden_aether_coin>],[<ore:ingotEnergeticAlloy>,<ore:blockEnergeticAlloy>,<ore:ingotEnergeticAlloy>]]);
 
 # Golder Molder Folder
 recipes.addShaped(<contenttweaker:golder_molder_folder>, [[<aether_legacy:ice_ring>,<aether_legacy:ice_ring>,null],[<thermalfoundation:material:33>,<thermalfoundation:material:33>,<aether_legacy:ice_pendant>],[<thermalfoundation:material:33>,<thermalfoundation:material:33>,null]]);
-<contenttweaker:golder_molder_folder>.addTooltip(format.darkRed(format.italic("An older boulder told 'er: Hold 'er shoulder!")));
-<contenttweaker:golder_molder_folder>.addTooltip(format.white(format.italic("Has 16 uses!")));
+<contenttweaker:golder_molder_folder>.addTooltip(format.darkRed(format.italic("\u4e00\u500b\u53e4\u8001\u7684\u5de8\u77f3\u544a\u8a34\u5979: \u6293\u4f4f\u5979\u7684\u80a9\u8180!")));
+<contenttweaker:golder_molder_folder>.addTooltip(format.white(format.italic("\u53ef\u4f7f\u7528 16 \u6b21!")));
 
 # Enchanted Golden Berry
 recipes.addShaped(<contenttweaker:enchanted_golden_berry>, [[<minecraft:gold_ingot>,<aether_legacy:enchanted_blueberry>,<minecraft:gold_ingot>],[<aether_legacy:golden_amber>,<contenttweaker:golder_molder_folder>.anyDamage().transformDamage(1),<aether_legacy:golden_amber>],[<minecraft:gold_ingot>,<aether_legacy:enchanted_gravitite>,<minecraft:gold_ingot>]]);
@@ -473,8 +473,8 @@ recipes.addShapeless(<contenttweaker:open_ingot> * 9, [<contenttweaker:open_bloc
 
 # Thermal Conductor Rod
 recipes.addShapedMirrored(<contenttweaker:thermal_conductor_rod>, [[null,<extrautils2:suncrystal>,<extrautils2:decorativesolidwood:1>],[<extrautils2:suncrystal>,<extrautils2:ingredients:5>,<extrautils2:suncrystal>],[<extrautils2:decorativesolidwood:1>,<extrautils2:suncrystal>,null]]);
-<contenttweaker:thermal_conductor_rod>.addTooltip(format.white("Has 800 uses."));
-<contenttweaker:thermal_conductor_rod>.addTooltip(format.red(format.bold("WARNING: ")) + format.gray(format.bold("AE2 consumes the item! Use an external crafter like an RFTools Crafter when using this item in your ME System!")));
+<contenttweaker:thermal_conductor_rod>.addTooltip(format.white("\u53ef\u4f7f\u7528 800 \u6b21."));
+<contenttweaker:thermal_conductor_rod>.addTooltip(format.red(format.bold("\u8b66\u544a: ")) + format.gray(format.bold("AE2\u6703\u6d88\u8017\u6389\u8a72\u7269\u54c1! \u7576\u5728ME\u7cfb\u7d71\u5167\u4f7f\u7528\u5b83\u5408\u6210\u7269\u54c1\u6642,\u7528\u500b\u5916\u90e8\u7684\u5408\u6210\u5668\u4f8b\u5982RFTools\u81ea\u52d5\u5408\u6210\u6a5f")));
 
 # RF Powder
 recipes.addShapeless(<contenttweaker:rf_powder> * 2, [<contenttweaker:thermal_conductor_rod>.anyDamage().transformDamage(1),<contenttweaker:gp_powder>,<thermalfoundation:material:99>,<minecraft:experience_bottle>]);
@@ -595,7 +595,7 @@ recipes.addShaped(<contenttweaker:unholy_token>, [[<contenttweaker:ayeraco_wing>
 # Eden, Wildwood, Apalachia, Skythern, Mortum, Moon & Asteroids Door Key Tooltips
 val divinerpg_galacticraft_keys = [<contenttweaker:eden_door_key>,<contenttweaker:wildwood_door_key>,<contenttweaker:apalachia_door_key>,<contenttweaker:skythern_door_key>,<contenttweaker:mortum_door_key>,<contenttweaker:moon_door_key>,<contenttweaker:venus_door_key>,<contenttweaker:asteroids_door_key>] as IItemStack[];
 for i in 0 to 8 {
-	divinerpg_galacticraft_keys[i].addTooltip(format.red("Right Click to clear any " + divinerpg_galacticraft_dimension_names_upper[i] + " Door Blocks in a 5 block radius."));
+	divinerpg_galacticraft_keys[i].addTooltip(format.red("\u53f3\u64ca\u6e05\u9664\u534a\u5f915\u683c\u5167 " + divinerpg_galacticraft_dimension_names_upper[i] + " \u7684\u6240\u6709\u9580\u65b9\u584a."));
 	#divinerpg_galacticraft_keys[i].addTooltip(format.red("If none are found, it shows an error message in chat."));
 }
 
@@ -764,10 +764,10 @@ addCustomBloodMagicCore(<contenttweaker:suppression_core>, <contenttweaker:praes
 addCustomBloodMagicCore(<contenttweaker:potency_core>, <contenttweaker:potentia>, <contenttweaker:potent_reagent>, blood_orb_at_least_tier_4);
 
 # Unholy Essence
-<contenttweaker:unholy_essence>.addTooltip(format.yellow("Found in Eden Dungeons."));
+<contenttweaker:unholy_essence>.addTooltip(format.yellow("\u53ef\u5728\u4f0a\u7538\u5730\u7262\u4e2d\u627e\u5230."));
 
 # Feather of the Wild Woods
-<contenttweaker:feather_of_the_wild_woods>.addTooltip(format.blue("Found in Wildwood Dungeons."));
+<contenttweaker:feather_of_the_wild_woods>.addTooltip(format.blue("\u53ef\u5728\u91ce\u6728\u5730\u7262\u4e2d\u627e\u5230."));
 
 # Bloodied Dust
 mods.evilcraft.BloodInfuser.addRecipe(<evilcraft:dull_dust>, <liquid:evilcraftblood> * 10000, 2, <contenttweaker:bloodied_dust>, 100, 0);
@@ -803,9 +803,9 @@ val dimensionalDirts = [<divinerpg:frozen_dirt>,<divinerpg:eden_dirt>,<divinerpg
 for dim_dirt in dimensionalDirts {
 	mods.botania.PureDaisy.addRecipe(dim_dirt, <contenttweaker:livingmatter>, 75);
 }
-<contenttweaker:livingmatter>.addTooltip(format.white(format.italic("It seems only certain Dimensional Dirts")));
-<contenttweaker:livingmatter>.addTooltip(format.white(format.italic("have the ability to be transformed")));
-<contenttweaker:livingmatter>.addTooltip(format.white(format.italic("into Livingmatter... How peculiar.")));
+<contenttweaker:livingmatter>.addTooltip(format.white(format.italic("\u770b\u4f86\u53ea\u6709\u6307\u5b9a\u7dad\u5ea6\u7684\u571f")));
+<contenttweaker:livingmatter>.addTooltip(format.white(format.italic("\u624d\u6709\u8fa6\u6cd5\u8f49\u63db\u6210\u6d3b\u8cea")));
+<contenttweaker:livingmatter>.addTooltip(format.white(format.italic("... \u771f\u662f\u795e\u5947.")));
 
 # Hydrid Abyssalium Ingot & Block
 EIOAlloySmelter.addRecipe(<contenttweaker:hybrid_abyssalium_ingot>, [<abyssalcraft:abychunk>, <abyssalcraft:abyingot>, <abyssalcraft:dreadiumingot>], 16000);
@@ -816,7 +816,7 @@ recipes.addShaped(<contenttweaker:hybrid_abyssalium_block>, [[<contenttweaker:hy
 recipes.addShapeless(<contenttweaker:hybrid_abyssalium_ingot> * 9, [<contenttweaker:hybrid_abyssalium_block>]);
 
 # Effulgent Spike of Apalachia
-<contenttweaker:effulgent_spike_of_apalachia>.addTooltip(format.lightPurple("Found in Apalachia Dungeons."));
+<contenttweaker:effulgent_spike_of_apalachia>.addTooltip(format.lightPurple("\u53ef\u5728\u963f\u5e15\u62c9\u5951\u4e9e\u5730\u7262\u4e2d\u627e\u5230."));
 
 # Effulgent Apalachian Spike Crown
 recipes.addShaped(<contenttweaker:effulgent_apalachian_spike_crown>, [[null,<contenttweaker:effulgent_spike_of_apalachia>,null],[<contenttweaker:effulgent_spike_of_apalachia>,<contenttweaker:effulgent_spike_of_apalachia>,<contenttweaker:effulgent_spike_of_apalachia>]]);
@@ -829,18 +829,18 @@ recipes.addShaped(<contenttweaker:effulgent_apalachian_spike_crown>, [[null,<con
 <ore:dustElectrotine>.remove(<projectred-core:resource_item:105>);
 recipes.addShaped(<contenttweaker:electrotine> * 16, [[<mysticalagriculture:electrotine_essence>,<mysticalagriculture:electrotine_essence>,<mysticalagriculture:electrotine_essence>],[<mysticalagriculture:electrotine_essence>,<mysticalagriculture:electrotine_essence>,<mysticalagriculture:electrotine_essence>],[<mysticalagriculture:electrotine_essence>,<mysticalagriculture:electrotine_essence>,<mysticalagriculture:electrotine_essence>]]);
 
-<contenttweaker:electrotine_ore>.addTooltip(format.white("Use the Blood Magic ") + format.red("Mark of the Fallen Tower") + format.white(" Ritual"));
-<contenttweaker:electrotine_ore>.addTooltip(format.white("to summon a Meteor containing ") + format.aqua("Electrotine Ore") + format.white("."));
-<contenttweaker:electrotine_ore>.addTooltip(format.darkGray(format.italic("<Hold Shift for more info>")));
-<contenttweaker:electrotine_ore>.addShiftTooltip(format.white("1) Get a Master Ritual Stone and an additional 100 Ritual Stones."));
-<contenttweaker:electrotine_ore>.addShiftTooltip(format.white("2) Use a ") + format.gray("Ritual Diviner [Dusk]") + format.white(" to set up the Ritual."));
-<contenttweaker:electrotine_ore>.addShiftTooltip(format.white("3) Place an Obsidian Block about 10-11 blocks above the Master"));
-<contenttweaker:electrotine_ore>.addShiftTooltip(format.white("   Ritual Stone to catch the falling Meteor, so your Ritual Stones"));
-<contenttweaker:electrotine_ore>.addShiftTooltip(format.white("   aren't ruined."));
-<contenttweaker:electrotine_ore>.addShiftTooltip(format.white("4) Have at least ") + format.red("1,000,000 LP") + format.white(" in your Life Network."));
-<contenttweaker:electrotine_ore>.addShiftTooltip(format.white("5) Activate the Ritual with an ") + format.darkAqua("Awakened Activation Crystal") + format.white("."));
-<contenttweaker:electrotine_ore>.addShiftTooltip(format.white("6) Throw a ") + format.blue("Potency Core") + format.white(" on top of the Master Ritual Stone."));
-<contenttweaker:electrotine_ore>.addShiftTooltip(format.white("7) Mine up the results. You can automate the process with a Builder."));
+<contenttweaker:electrotine_ore>.addTooltip(format.white("\u4f7f\u7528\u8840\u9b54\u6cd5\u7684 ") + format.red("\u589c\u661f\u6a19\u4f4d") + format.white(" \u5100\u5f0f"));
+<contenttweaker:electrotine_ore>.addTooltip(format.white("\u4f86\u62db\u559a\u542b\u6709 ") + format.aqua("\u85cd\u77f3\u7926") + format.white(" \u7684\u9695\u77f3."));
+<contenttweaker:electrotine_ore>.addTooltip(format.darkGray(format.italic("<\u6309 Shift \u4e86\u89e3\u66f4\u591a>")));
+<contenttweaker:electrotine_ore>.addShiftTooltip(format.white("1) \u6e96\u5099\u4e00\u500b\u4e3b\u5100\u5f0f\u77f3\u548c100\u500b\u5100\u5f0f\u77f3."));
+<contenttweaker:electrotine_ore>.addShiftTooltip(format.white("2) \u4f7f\u7528 ") + format.gray("\u5100\u5f0f\u63a8\u6e2c\u4ed7 [\u8584\u66ae]") + format.white(" \u5efa\u9020\u5100\u5f0f."));
+<contenttweaker:electrotine_ore>.addShiftTooltip(format.white("3) \u5728\u4e3b\u5100\u5f0f\u4e0a10-11\u683c\u653e\u7f6e\u9ed1\u66dc\u77f3\u4f86"));
+<contenttweaker:electrotine_ore>.addShiftTooltip(format.white("   \u6355\u6349\u589c\u843d\u7684\u9695\u77f3,\u4f60\u7684\u5100\u5f0f\u77f3\u4e0d\u6703"));
+<contenttweaker:electrotine_ore>.addShiftTooltip(format.white("   \u88ab\u6467\u6bc0."));
+<contenttweaker:electrotine_ore>.addShiftTooltip(format.white("4) \u81f3\u5c11\u8981\u6709 ") + format.red("1,000,000 LP") + format.white(" \u5728\u4f60\u7684\u9748\u9b42\u7db2\u8def\u5167."));
+<contenttweaker:electrotine_ore>.addShiftTooltip(format.white("5) \u4f7f\u7528 ") + format.darkAqua("[\u89ba\u9192]\u555f\u52d5\u6c34\u6676") + format.white(" \u4f86\u555f\u52d5\u5100\u5f0f."));
+<contenttweaker:electrotine_ore>.addShiftTooltip(format.white("6) \u4e1f\u500b ") + format.blue("\u6548\u80fd\u6838\u5fc3") + format.white(" \u5728\u4e3b\u5100\u5f0f\u77f3\u4e0a."));
+<contenttweaker:electrotine_ore>.addShiftTooltip(format.white("7) \u63a1\u6536\u6574\u500b\u6210\u679c. \u53e6\u5916\u4f60\u53ef\u4ee5\u7528\u5efa\u9020\u6a5f\u4f86\u81ea\u52d5\u5316\u6574\u500b\u904e\u7a0b."));
 
 # Angelic Silicon/Crystal Mixture
 recipes.addShaped(<contenttweaker:angelic_silicon_crystal_mixture>, [[<bloodmagic:item_demon_crystal:2>,<projectred-core:resource_item:341>,<bloodmagic:item_demon_crystal:2>],[<bloodmagic:item_demon_crystal:3>,<projectred-core:resource_item:320>,<bloodmagic:item_demon_crystal:3>],[<bloodmagic:item_demon_crystal:4>,<projectred-core:resource_item:342>,<bloodmagic:item_demon_crystal:4>]]);
@@ -900,7 +900,7 @@ mods.botania.Apothecary.addRecipe(<contenttweaker:petal_of_the_narslimmus>, [<or
 
 # Jaded Petal
 mods.botania.Apothecary.addRecipe(<contenttweaker:jaded_petal>, [<ore:petalRed>,<ore:petalPurple>,<ore:petalLime>,<ore:petalBlack>]);
-<contenttweaker:jaded_petal>.addTooltip(format.darkGreen(format.italic("A certain server owner's favorite Petal!")));
+<contenttweaker:jaded_petal>.addTooltip(format.darkGreen(format.italic("\u67d0\u670d\u4e3b\u6700\u559c\u6b61\u7684\u82b1\u74e3!")));
 
 # Thorny Belle Petal
 mods.botania.Apothecary.addRecipe(<contenttweaker:thorny_belle_petal>, [<ore:petalRed>,<ore:petalRed>,<ore:petalRed>,<ore:petalBlack>]);
@@ -1080,8 +1080,8 @@ function(out, cInfo, player){
 
 
 recipes.addShapeless(<contenttweaker:soul_of_the_dark_realm> * 9, [<contenttweaker:dark_realm_soul_block>]);
-<contenttweaker:soul_of_the_dark_realm>.addTooltip(format.white("Obtained by removing Souls from ") + format.gray("Sacthoth's Soul Reaper Blade") + format.white("."));
-<contenttweaker:soul_of_the_dark_realm>.addTooltip(format.white("To obtain Souls, slay monsters with the sword."));
+<contenttweaker:soul_of_the_dark_realm>.addTooltip(format.white("\u900f\u904e\u79fb\u9664 ") + format.gray("\u85a9\u6258\u65af\u7684\u9748\u9b42\u6536\u5272\u4e4b\u5203") + format.white(" \u7684\u9748\u9b42\u7372\u5f97."));
+<contenttweaker:soul_of_the_dark_realm>.addTooltip(format.white("\u7528\u9019\u628a\u528d\u6bba\u602a\u4ee5\u7372\u53d6\u9748\u9b42."));
 
 # Dark Realm Soul Block
 recipes.addShaped(<contenttweaker:dark_realm_soul_block>, [[<contenttweaker:soul_of_the_dark_realm>,<contenttweaker:soul_of_the_dark_realm>,<contenttweaker:soul_of_the_dark_realm>],[<contenttweaker:soul_of_the_dark_realm>,<contenttweaker:soul_of_the_dark_realm>,<contenttweaker:soul_of_the_dark_realm>],[<contenttweaker:soul_of_the_dark_realm>,<contenttweaker:soul_of_the_dark_realm>,<contenttweaker:soul_of_the_dark_realm>]]);
@@ -1110,24 +1110,24 @@ mods.botania.ManaInfusion.addAlchemy(<contenttweaker:mystical_tablet>, <contentt
 recipes.addShaped(<contenttweaker:rainbow_tablet>, [[null,<contenttweaker:rainbow_slate>,null],[<contenttweaker:mystical_tablet>,blood_orb_at_least_tier_6.reuse(),<contenttweaker:mystical_tablet>],[null,<contenttweaker:rainbow_slate>,null]]);
 
 # Abyssal Wasteland Teleporter
-<contenttweaker:abyssal_wasteland_teleporter>.addTooltip(format.white(format.bold(format.underline("For multiplayer purposes:"))));
-<contenttweaker:abyssal_wasteland_teleporter>.addTooltip(format.white("If your portal is very far away from (0,0), and"));
-<contenttweaker:abyssal_wasteland_teleporter>.addTooltip(format.white("you'd have to fly a long way to find any Abyssal"));
-<contenttweaker:abyssal_wasteland_teleporter>.addTooltip(format.white("Wasteland Strongholds, then simply Right Click with"));
-<contenttweaker:abyssal_wasteland_teleporter>.addTooltip(format.white("this item to teleport to (0,80,0)."));
-<contenttweaker:abyssal_wasteland_teleporter>.addTooltip(format.white(format.bold("Has 3 uses.")));
-<contenttweaker:abyssal_wasteland_teleporter>.addTooltip(format.white(format.bold("Warning:")) + format.white(" You definitely want to have a Jetpack"));
-<contenttweaker:abyssal_wasteland_teleporter>.addTooltip(format.white("or Hang Glider equipped before you teleport."));
+<contenttweaker:abyssal_wasteland_teleporter>.addTooltip(format.white(format.bold(format.underline("\u7528\u65bc\u591a\u4eba\u904a\u6232:"))));
+<contenttweaker:abyssal_wasteland_teleporter>.addTooltip(format.white("\u82e5\u4f60\u7684\u50b3\u9001\u9580\u96e2(0,0)\u5f88\u9060, \u5247\u4f60\u9700\u8981"));
+<contenttweaker:abyssal_wasteland_teleporter>.addTooltip(format.white("\u98db\u4e00\u6bb5\u5f88\u9060\u7684\u8ddd\u96e2\u624d\u80fd\u627e\u5230\u6df1\u6df5\u8352\u539f"));
+<contenttweaker:abyssal_wasteland_teleporter>.addTooltip(format.white("\u8981\u585e, \u90a3\u9ebc\u7c21\u55ae\u7684\u53f3\u64ca\u9019\u500b\u7269\u54c1\u50b3\u9001"));
+<contenttweaker:abyssal_wasteland_teleporter>.addTooltip(format.white("\u81f3 (0,80,0)."));
+<contenttweaker:abyssal_wasteland_teleporter>.addTooltip(format.white(format.bold("\u53ef\u4f7f\u7528 3 \u6b21.")));
+<contenttweaker:abyssal_wasteland_teleporter>.addTooltip(format.white(format.bold("\u8b66\u544a:")) + format.white(" \u5728\u4f60\u50b3\u9001\u524d\u7d55\u5c0d\u9700\u8981\u5674\u5c04"));
+<contenttweaker:abyssal_wasteland_teleporter>.addTooltip(format.white("\u80cc\u5305\u6216\u88dd\u5099\u6ed1\u7fd4\u7ffc."));
 
 # Omothol Teleporter
-<contenttweaker:omothol_teleporter>.addTooltip(format.white(format.bold(format.underline("For multiplayer purposes:"))));
-<contenttweaker:omothol_teleporter>.addTooltip(format.white("If your portal is very far away from (0,0), and"));
-<contenttweaker:omothol_teleporter>.addTooltip(format.white("you'd have to fly a long way to reach the Omothol "));
-<contenttweaker:omothol_teleporter>.addTooltip(format.white("Dungeon, then simply Right Click with this item"));
-<contenttweaker:omothol_teleporter>.addTooltip(format.white("to teleport to (0,80,0)."));
-<contenttweaker:omothol_teleporter>.addTooltip(format.white(format.bold("One time use.")));
-<contenttweaker:omothol_teleporter>.addTooltip(format.white(format.bold("Warning:")) + format.white(" You definitely want to have a Jetpack"));
-<contenttweaker:omothol_teleporter>.addTooltip(format.white("or Hang Glider equipped before you teleport."));
+<contenttweaker:omothol_teleporter>.addTooltip(format.white(format.bold(format.underline("\u7528\u65bc\u591a\u4eba\u904a\u6232:"))));
+<contenttweaker:omothol_teleporter>.addTooltip(format.white("\u82e5\u4f60\u7684\u50b3\u9001\u9580\u96e2(0,0)\u5f88\u9060, \u5247\u4f60\u9700\u8981"));
+<contenttweaker:omothol_teleporter>.addTooltip(format.white("\u98db\u4e00\u6bb5\u5f88\u9060\u7684\u8ddd\u96e2\u624d\u80fd\u62b5\u9054\u5967\u7a46\u7d22\u5730\u7262, "));
+<contenttweaker:omothol_teleporter>.addTooltip(format.white("\u90a3\u9ebc\u7c21\u55ae\u7684\u53f3\u64ca\u9019\u500b\u7269\u54c1\u50b3\u9001"));
+<contenttweaker:omothol_teleporter>.addTooltip(format.white("\u81f3 (0,80,0)."));
+<contenttweaker:omothol_teleporter>.addTooltip(format.white(format.bold("\u53ef\u4f7f\u7528 1 \u6b21.")));
+<contenttweaker:omothol_teleporter>.addTooltip(format.white(format.bold("\u8b66\u544a:")) + format.white(" \u5728\u4f60\u50b3\u9001\u524d\u7d55\u5c0d\u9700\u8981\u5674\u5c04"));
+<contenttweaker:omothol_teleporter>.addTooltip(format.white("\u80cc\u5305\u6216\u88dd\u5099\u6ed1\u7fd4\u7ffc."));
 /*
 <contenttweaker:omothol_teleporter>.addTooltip(format.gray(format.italic("* May or may not cause horrible nightmares from")));
 <contenttweaker:omothol_teleporter>.addTooltip(format.gray(format.italic("  this point on in your life. Please consult your")));
@@ -1144,7 +1144,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:base_focal_s
 mods.thaumcraft.Crucible.registerRecipe("contenttweaker:magical_leather", "", <contenttweaker:magical_leather>, <contenttweaker:blood_infused_leather>, [<aspect:praecantatio> * 10, <aspect:bestia> * 5, <aspect:auram> * 5, <aspect:spiritus> * 5]);
 
 # Knowledge of the Sky
-<contenttweaker:knowledge_of_the_sky>.addTooltip(format.white("Found in Skythern Dungeons."));
+<contenttweaker:knowledge_of_the_sky>.addTooltip(format.white("\u53ef\u5728\u51b0\u523a\u5730\u7262\u4e2d\u627e\u5230."));
 
 # Matrix Multiplication Unit
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:matrix_multiplication_unit> * 8, 2500000, 5000, <industrialforegoing:black_hole_unit>, [<contenttweaker:knowledge_of_the_sky>,<contenttweaker:rainbow_tablet>,<contenttweaker:knowledge_of_the_sky>,<contenttweaker:rainbow_tablet>,<contenttweaker:knowledge_of_the_sky>,<contenttweaker:rainbow_tablet>,<contenttweaker:knowledge_of_the_sky>,<contenttweaker:rainbow_tablet>]);
@@ -1162,13 +1162,13 @@ for aspect in allThaumcraftAspects {
 mods.thaumcraft.Infusion.registerRecipe("contenttweaker:stabilized_end_crystal", "", <contenttweaker:stabilized_end_crystal>, 4, [<aspect:alienis> * 100,<aspect:auram> * 100,<aspect:sol> * 80,<aspect:lux> * 40,<aspect:fabrico> * 40], <minecraft:end_crystal>, [<thaumcraft:plate:2>,<thaumcraft:vis_resonator>,<thaumcraft:plate:2>,<enderutilities:enderpart:17>]);
 
 # Mysterious Leaking Soul
-<contenttweaker:mysterious_leaking_soul>.addTooltip(format.darkGray("Found in Mortum Dungeons."));
+<contenttweaker:mysterious_leaking_soul>.addTooltip(format.darkGray("\u53ef\u5728\u9ed1\u91d1\u5730\u7262\u4e2d\u627e\u5230."));
 
 # Woodland Mansion Locator Token
 mods.actuallyadditions.Empowerer.addRecipe(<contenttweaker:woodland_mansion_locator_token>, <minecraft:map>, <actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:block_crystal_empowered:1>, <actuallyadditions:block_crystal_empowered:4>, empowered_glod_crystal_block, 10000, 100, [0.222, 0.1641, 0.0508]);
-<contenttweaker:woodland_mansion_locator_token>.addTooltip(format.white(format.bold("One time use!")));
-<minecraft:totem_of_undying>.addTooltip(format.white("No luck finding a Woodland Mansion?"));
-<minecraft:totem_of_undying>.addTooltip(format.white("Craft a ") + format.white(format.bold("Woodland Mansion Locator Token")) + format.white("!"));
+<contenttweaker:woodland_mansion_locator_token>.addTooltip(format.white(format.bold("\u53ef\u4f7f\u7528 1 \u6b21!")));
+<minecraft:totem_of_undying>.addTooltip(format.white("\u904b\u6c23\u5dee\u627e\u4e0d\u5230\u6797\u5730\u5927\u5b85\u55ce?"));
+<minecraft:totem_of_undying>.addTooltip(format.white("\u88fd\u4f5c\u500b ") + format.white(format.bold("\u6797\u5730\u5927\u5b85\u5b9a\u4f4d\u4ee4\u724c")) + format.white("!"));
 
 # Brew of the Void
 WitchesCauldron.addRecipe([<contenttweaker:brew_of_the_void>], [<bewitchment:bottle_of_blood>,<bewitchment:belladonna>,<bewitchment:aconitum>,<bewitchment:wormwood>,<thaumcraft:ingot>,<thaumcraft:ingot>,<minecraft:mycelium>,<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitium"}]}),<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitium"}]})]);
@@ -1204,26 +1204,26 @@ recipes.addShapeless(<bewitchment:stone_ichor> * 2, [<contenttweaker:witches_sto
 
 # Flame Devourer Pendant
 recipes.addShapedMirrored(<contenttweaker:flame_devourer_pendant>, [[<bewitchment:bottled_hellfire>,<bewitchment:bottled_hellfire>,<bewitchment:bottled_hellfire>],[<bewitchment:fiery_unguent>.noReturn(),<bewitchment:sigil_purity>,<bewitchment:demonic_elixir>.noReturn()],[<contenttweaker:rune_of_wrath>,<contenttweaker:travelers_tenacity>,<contenttweaker:rune_of_wrath>]]);
-<contenttweaker:flame_devourer_pendant>.addTooltip(format.white("When you are inflicted with the ") + format.red("Hell Fire") + format.white(" status"));
-<contenttweaker:flame_devourer_pendant>.addTooltip(format.white("effect by the Brazier, Right Clicking this item"));
-<contenttweaker:flame_devourer_pendant>.addTooltip(format.white("will yield a piece of ") + format.gold("Ignition") + format.white(", which is used to"));
-<contenttweaker:flame_devourer_pendant>.addTooltip(format.white("unlock ") + format.gold("LightningCraft") + format.white("."));
-<contenttweaker:flame_devourer_pendant>.addTooltip(format.white("Check Codex Infernalis / Curses / Conflagration,"));
-<contenttweaker:flame_devourer_pendant>.addTooltip(format.white("and use it with your own Taglock!"));
+<contenttweaker:flame_devourer_pendant>.addTooltip(format.white("\u7576\u4f60\u53d7\u5230\u706b\u76c6\u7684 ") + format.red("\u5730\u7344\u70c8\u7130") + format.white(" "));
+<contenttweaker:flame_devourer_pendant>.addTooltip(format.white("\u72c0\u614b\u6642, \u53f3\u64ca\u9019\u500b\u7269\u54c1"));
+<contenttweaker:flame_devourer_pendant>.addTooltip(format.white("\u6703\u7522\u751f\u4e00\u584a ") + format.gold("\u9ede\u706b\u5668") + format.white(", \u9019\u53ef\u7528\u4f86"));
+<contenttweaker:flame_devourer_pendant>.addTooltip(format.white("\u89e3\u9396 ") + format.gold("\u96f7\u96fb\u5de5\u85dd(LightningCraft)") + format.white("."));
+<contenttweaker:flame_devourer_pendant>.addTooltip(format.white("\u67e5\u770b\u5730\u7344\u53e4\u7c4d / \u8a5b\u5492 / \u708e\u4e0a\u5492,"));
+<contenttweaker:flame_devourer_pendant>.addTooltip(format.white("\u548c\u4f60\u7684\u5deb\u5a92\u4e00\u8d77\u4f7f\u7528!"));
 
 # Ignition
-<contenttweaker:ignition>.addTooltip(format.white("Obtained by using a Flame Devourer Pendant"));
-<contenttweaker:ignition>.addTooltip(format.white("while the Hellfire Curse is on the user."));
-<contenttweaker:ignition>.addTooltip(format.white("Check Codex Infernalis / Curses / Conflagration,"));
-<contenttweaker:ignition>.addTooltip(format.white("and use it with your own Taglock!"));
+<contenttweaker:ignition>.addTooltip(format.white("\u7576\u4f60\u8eab\u4e0a\u6709\u8457\u708e\u4e0a\u5492\u6642"));
+<contenttweaker:ignition>.addTooltip(format.white("\u4f7f\u7528\u706b\u7130\u541e\u566c\u9805\u934a\u7372\u5f97."));
+<contenttweaker:ignition>.addTooltip(format.white("\u67e5\u770b\u5730\u7344\u53e4\u7c4d / \u8a5b\u5492 / \u708e\u4e0a\u5492,"));
+<contenttweaker:ignition>.addTooltip(format.white("\u548c\u4f60\u7684\u5deb\u5a92\u4e00\u8d77\u4f7f\u7528!"));
 
 # Death Core
 recipes.addShaped(<contenttweaker:death_core>, [[<bewitchment:poppet_deathprotection>,<bewitchment:poppet_deathprotection>,<bewitchment:poppet_deathprotection>],[<bewitchment:poppet_deathprotection>,<thermalexpansion:florb>.withTag({Fluid: "liquid_death"}),<bewitchment:poppet_deathprotection>],[<bewitchment:poppet_deathprotection>,<bewitchment:poppet_deathprotection>,<bewitchment:poppet_deathprotection>]]);
 
 # Shard of the Grotesque
-<contenttweaker:shard_of_the_grotesque>.addTooltip(format.white("Obtained by slaying Ghosts spawned by"));
-<contenttweaker:shard_of_the_grotesque>.addTooltip(format.white("the Spiritual Rift Ritual. Consult your"));
-<contenttweaker:shard_of_the_grotesque>.addTooltip(format.white("Book of Shadows for more info."));
+<contenttweaker:shard_of_the_grotesque>.addTooltip(format.white("\u901a\u904e\u64ca\u6bba\u9748\u9b42\u7e2b\u9699\u5100\u5f0f"));
+<contenttweaker:shard_of_the_grotesque>.addTooltip(format.white("\u7522\u751f\u7684\u9b3c\u9b42\u7372\u5f97. \u53c3\u95b1"));
+<contenttweaker:shard_of_the_grotesque>.addTooltip(format.white("\u5f71\u4e4b\u66f8\u4e86\u89e3\u66f4\u591a."));
 
 # Molten Cold Iron
 MagmaCrucible.addRecipe(<liquid:cold_iron> * 144, <bewitchment:cold_iron_ingot>, 4000);
@@ -1259,8 +1259,8 @@ function(out, ins, cInfo) {
 		return null;
 	}
 }, null);
-<contenttweaker:conducted_impetus>.addTooltip(format.white("Requires an ") + format.lightPurple("Impetus Conductor") + format.white(" with"));
-<contenttweaker:conducted_impetus>.addTooltip(format.white("Impetus Level: ") + format.darkGreen("Maximum") + format.white("."));
+<contenttweaker:conducted_impetus>.addTooltip(format.white("\u9700\u8981 ") + format.lightPurple("\u5143\u52d5\u80fd\u91cf\u96fb\u6c60") + format.white(" \u4e14"));
+<contenttweaker:conducted_impetus>.addTooltip(format.white("\u5143\u52d5\u80fd\u91cf\u7b49\u7d1a: ") + format.darkGreen("\u6eff") + format.white("."));
 
 function checkBiomesAtPositions(biomeName as string, player_pos as Position3f, biomeLocations as int[][], cInfo as ICraftingInfo) as int {
 	var numOfMatches = 0 as int;
@@ -1312,23 +1312,23 @@ recipes.addShaped("arcanium_base", <contenttweaker:arcanium_base>, [[<thaumcraft
 			return null;
 		}
 	}, null);
-<contenttweaker:arcanium_base>.addTooltip(format.white("This item is only craftable if you stand in a 7x7"));
-<contenttweaker:arcanium_base>.addTooltip(format.white("concentric square of the following biomes (from"));
-<contenttweaker:arcanium_base>.addTooltip(format.white("the outermost layer to the innermost square):"));
-<contenttweaker:arcanium_base>.addTooltip(format.darkPurple("Mortum") + format.white(" biome, ") + format.red("Hell (Nether)") + format.white(" biome, ") + format.green("Magical Forest"));
-<contenttweaker:arcanium_base>.addTooltip(format.white("biome, and ") + format.aqua("Ocean") + format.white(" biome. To do this, use an Arcane"));
-<contenttweaker:arcanium_base>.addTooltip(format.white("Terraformer. Check the quest book -> Chapter 21:"));
-<contenttweaker:arcanium_base>.addTooltip(format.white("'Ritual of the Arcane' quest for a better explanation!"));
+<contenttweaker:arcanium_base>.addTooltip(format.white("\u50c5\u5728\u4e0b\u5217\u751f\u614b\u57df\u4e2d 7x7 "));
+<contenttweaker:arcanium_base>.addTooltip(format.white("\u6b63\u65b9\u7684\u4e2d\u5fc3\u4e2d\u624d\u80fd\u5408\u6210"));
+<contenttweaker:arcanium_base>.addTooltip(format.white("(\u5f9e\u6700\u5916\u5c64\u81f3\u6700\u5167\u5c64\u6b63\u65b9):"));
+<contenttweaker:arcanium_base>.addTooltip(format.darkPurple("\u9ed1\u91d1") + format.white(" \u751f\u614b\u57df, ") + format.red("Hell (\u5730\u7344)") + format.white(" \u751f\u614b\u57df, ") + format.green("\u9b54\u6cd5\u68ee\u6797"));
+<contenttweaker:arcanium_base>.addTooltip(format.white("\u751f\u614b\u57df, \u548c ") + format.aqua("\u6d77\u6d0b") + format.white(" \u751f\u614b\u57df. \u70ba\u6b64,\u4f7f\u7528"));
+<contenttweaker:arcanium_base>.addTooltip(format.white("\u5967\u8853\u7fa4\u7cfb\u8f49\u63db\u5100. \u67e5\u770b\u4efb\u52d9\u66f8 -> \u7b2c 21 \u7ae0:"));
+<contenttweaker:arcanium_base>.addTooltip(format.white("'\u5967\u8853\u5100\u5f0f' \u4efb\u52d9, \u6709\u66f4\u597d\u7684\u8aaa\u660e!"));
 
 # Primordial Fragment
 recipes.addShapeless(<contenttweaker:primordial_fragment>, [<thaumcraft:primordial_pearl>.anyDamage().transformDamage(1)]);
 recipes.addShapeless(<contenttweaker:primordial_fragment>, [<contenttweaker:goddess_pearl>.reuse()]);
-<contenttweaker:primordial_fragment>.addTooltip(format.white("Takes 1 durability of a ") + format.gold("Primordial Pearl") + format.white(" to craft."));
+<contenttweaker:primordial_fragment>.addTooltip(format.white("\u8017\u8cbb ") + format.gold("\u5143\u59cb\u73cd\u73e0") + format.white(" 1 \u9ede\u7684\u8010\u4e45\u503c\u5408\u6210."));
 
 # Ritualistic Biome Checker
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("contenttweaker:ritualistic_biome_checker", "", 25, [<aspect:terra> * 5,<aspect:aer> * 3], <contenttweaker:ritualistic_biome_checker>, [[<botania:managlasspane>,<thaumicaugmentation:material:5>,<botania:managlasspane>],[<thaumcraft:plate>,<thaumcraft:morphic_resonator>,<thaumcraft:plate>],[null,<thaumcraft:plate>,null]]);
-<contenttweaker:ritualistic_biome_checker>.addTooltip(format.white("Used for the Ritual of the Arcane,"));
-<contenttweaker:ritualistic_biome_checker>.addTooltip(format.white("detailed in Chapter 21 of the quest book."));
+<contenttweaker:ritualistic_biome_checker>.addTooltip(format.white("\u7528\u65bc\u5967\u8853\u5100\u5f0f, \u4efb\u52d9\u66f8\u7684"));
+<contenttweaker:ritualistic_biome_checker>.addTooltip(format.white("\u7b2c 21 \u7ae0\u6709\u8a73\u7d30\u7684\u8aaa\u660e."));
 
 # Dungeon Token
 recipes.addShapeless(<contenttweaker:dungeon_token> * 5, [<divinerpg:dungeon_tokens>]);
@@ -1397,14 +1397,14 @@ function(out, ins, cInfo) {
 	}
 
 }, null);
-<contenttweaker:astral_core>.addTooltip(format.white("To craft this, you will need 4 ") + format.blue("Attuned Celestial Crystals"));
-<contenttweaker:astral_core>.addTooltip(format.white("that each have a ") + format.red("unique trait") + format.white(" of a Dim Constellation:"));
-<contenttweaker:astral_core>.addTooltip(format.lightPurple("Alcara") + format.white(", ") + format.gray("Gelu") + format.white(", ") + format.green("Ulteria") + format.white(", and ") + format.gold("Vorux") + format.white(". To add a trait to a Crystal:"));
-<contenttweaker:astral_core>.addTooltip(format.white("1. Attune it to any Constellation."));
-<contenttweaker:astral_core>.addTooltip(format.white("2. Wait until a Dim Constellation is available at night."));
-<contenttweaker:astral_core>.addTooltip(format.white("3. Attune it again to the Dim Constellation (this will add a"));
-<contenttweaker:astral_core>.addTooltip(format.white("   ") + format.blue("Trait") + format.white(" modifier to it)."));
-<contenttweaker:astral_core>.addTooltip(format.white(format.bold("CANNOT BE AUTOCRAFTED.")));
+<contenttweaker:astral_core>.addTooltip(format.white("\u8981\u88fd\u4f5c\u5b83,\u4f60\u9700\u8981 4 \u500b ") + format.blue("\u5171\u9cf4\u5929\u9ad4\u6c34\u6676\u77f3"));
+<contenttweaker:astral_core>.addTooltip(format.white("\u6bcf\u500b\u6c34\u6676\u90fd\u9700\u6709\u660f\u6697\u661f\u5ea7\u7684 ") + format.red("\u7368\u7279\u7279\u5fb5") + format.white(" :"));
+<contenttweaker:astral_core>.addTooltip(format.lightPurple("\u632f\u8b8a\u5ea7") + format.white(", ") + format.gray("\u5bd2\u51b0\u5ea7") + format.white(", ") + format.green("\u758f\u5875\u5ea7") + format.white(", \u548c ") + format.gold("\u8caa\u72fc\u5ea7") + format.white(". \u70ba\u6c34\u6676\u6dfb\u52a0\u7279\u5fb5:"));
+<contenttweaker:astral_core>.addTooltip(format.white("1. \u5c07\u6c34\u6676\u77f3\u5171\u9cf4\u81f3\u4efb\u4f55\u661f\u5ea7."));
+<contenttweaker:astral_core>.addTooltip(format.white("2. \u7b49\u5230\u665a\u4e0a\u6709\u660f\u6697\u661f\u5ea7\u51fa\u73fe."));
+<contenttweaker:astral_core>.addTooltip(format.white("3. \u518d\u6b21\u5171\u9cf4\u81f3\u660f\u6697\u661f\u5ea7(\u9019\u5c07"));
+<contenttweaker:astral_core>.addTooltip(format.white("   \u70ba\u5176\u6dfb\u52a0 ") + format.blue("\u7279\u5fb5") + format.white(" )."));
+<contenttweaker:astral_core>.addTooltip(format.white(format.bold("\u7121\u6cd5\u81ea\u52d5\u5408\u6210.")));
 
 # Star of Revelation
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:star_of_revelation>,
@@ -1415,8 +1415,8 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:star_of_revelation
 [null,<astralsorcery:itemusabledust>,<astralsorcery:itemcraftingcomponent:1>,<astralsorcery:itemusabledust>,<astralsorcery:itemcraftingcomponent:1>,<astralsorcery:itemusabledust>,null],
 [<astralsorcery:itemusabledust>,<astralsorcery:iteminfusedglass>,<astralsorcery:itemusabledust>,<astralsorcery:blockbore>,<astralsorcery:itemusabledust>,<astralsorcery:iteminfusedglass>,<astralsorcery:itemusabledust>],
 [<astralsorcery:itemcraftingcomponent:1>,<astralsorcery:itemusabledust>,null,<astralsorcery:itemcraftingcomponent:1>,null,<astralsorcery:itemusabledust>,<astralsorcery:itemcraftingcomponent:1>]]);
-<contenttweaker:star_of_revelation>.addTooltip(format.red("Does not get consumed by regular crafting."));
-<contenttweaker:star_of_revelation>.addTooltip(format.red(format.bold("WARNING: ")) + format.gray(format.bold("AE2 consumes the item! Use an external crafter like an RFTools Crafter when using this item in your ME System!")));
+<contenttweaker:star_of_revelation>.addTooltip(format.red("\u6b63\u5e38\u7684\u5408\u6210\u4e0d\u6703\u6d88\u8017."));
+<contenttweaker:star_of_revelation>.addTooltip(format.red(format.bold("\u8b66\u544a: ")) + format.gray(format.bold("AE2 \u6703\u6d88\u8017\u6b64\u7269\u54c1! \u5728ME\u7cfb\u7d71\u4e2d\u4f7f\u7528\u6642\u5916\u63a5\u4e00\u500b\u5408\u6210\u5668\u5982RFtools\u81ea\u52d5\u5408\u6210\u6a5f!")));
 
 # Galactic Ingot
 recipes.addShapeless(<contenttweaker:galactic_ingot> * 5, [<contenttweaker:star_of_revelation>.reuse(),<astralsorcery:itemcraftingcomponent:1>,<astralsorcery:itemcraftingcomponent:1>,<astralsorcery:itemcraftingcomponent:1>,<astralsorcery:itemcraftingcomponent:1>,<astralsorcery:itemcraftingcomponent:4>]);
@@ -1453,16 +1453,16 @@ mods.GalacticraftTweaker.addCircuitFabricatorRecipe(<contenttweaker:cheesy_wafer
 recipes.addShaped(<contenttweaker:sapphire_accelerator>, [[<contenttweaker:cheesy_wafer>,<contenttweaker:cheesy_wafer>,<contenttweaker:cheesy_wafer>],[<galacticraftcore:item_basic_moon:2>,<galacticraftcore:heavy_plating>,<galacticraftcore:item_basic_moon:2>],[<galacticraftcore:item_basic_moon:2>,<simplyjetpacks:metaitemmods:11>,<galacticraftcore:item_basic_moon:2>]]);
 
 # Spacerock
-<contenttweaker:spacerock>.addTooltip(format.white("Found in custom ") + format.gray("Moon") + format.white(" Dungeons."));
+<contenttweaker:spacerock>.addTooltip(format.white("\u53ef\u5728\u7279\u88fd\u7684 ") + format.gray("\u6708\u7403") + format.white(" \u5730\u7262\u4e2d\u627e\u5230."));
 
 # Secret Alien Technology
-<contenttweaker:secret_alien_technology>.addTooltip(format.white("Found in custom ") + format.red("Mars") + format.white(" dungeons."));
+<contenttweaker:secret_alien_technology>.addTooltip(format.white("\u53ef\u5728\u7279\u88fd\u7684 ") + format.red("\u706b\u661f") + format.white(" \u5730\u7262\u4e2d\u627e\u5230."));
 
 # Chunk of the Meteor that ended the Era of Dinosaurs
-<contenttweaker:chunk_of_the_meteor_that_ended_the_era_of_dinosaurs>.addTooltip(format.white("Found in custom dungeons in the ") + format.gray("Asteroid Belt") + format.white("."));
+<contenttweaker:chunk_of_the_meteor_that_ended_the_era_of_dinosaurs>.addTooltip(format.white("\u53ef\u5728\u7279\u88fd\u7684 ") + format.gray("\u5c0f\u884c\u661f\u5e36") + format.white(" \u5730\u7262\u4e2d\u627e\u5230."));
 
 # Fragment of the Sun
-<contenttweaker:fragment_of_the_sun>.addTooltip(format.white("Found in custom ") + format.gold("Venus") + format.white(" dungeons."));
+<contenttweaker:fragment_of_the_sun>.addTooltip(format.white("\u53ef\u5728\u7279\u88fd\u7684 ") + format.gold("\u91d1\u661f") + format.white(" \u5730\u7262\u4e2d\u627e\u5230."));
 
 # Titanium Box
 recipes.addShaped(<contenttweaker:titanium_box>, [[<contenttweaker:titanium_plate>,<galacticraftplanets:item_basic_asteroids:6>,<contenttweaker:titanium_plate>],[<galacticraftplanets:item_basic_asteroids:6>,<galacticraftplanets:item_basic_asteroids:5>,<galacticraftplanets:item_basic_asteroids:6>],[<contenttweaker:titanium_plate>,<galacticraftplanets:item_basic_asteroids:6>,<contenttweaker:titanium_plate>]]);
@@ -1510,11 +1510,11 @@ function(out,ins,cInfo) {
 	return null;
 }, null);
 recipes.addShaped(<contenttweaker:crystal_core>, [[<contenttweaker:titanium_box>,<contenttweaker:condensed_vis_crystal_vitreus>,<contenttweaker:titanium_box>],[<extendedcrafting:material:24>,<rftools:infused_diamond>,<extendedcrafting:material:24>],[<contenttweaker:titanium_box>,<contenttweaker:condensed_vis_crystal_vitreus>,<contenttweaker:titanium_box>]]);
-<contenttweaker:crystal_core>.addTooltip(format.white("If using the Rock Crystal recipe,"));
-<contenttweaker:crystal_core>.addTooltip(format.white("the input Rock Crystal has to have:"));
-<contenttweaker:crystal_core>.addTooltip(format.blue("Size >= 300") + format.white(" and ") + format.blue("Purity >= 75%") + format.white("."));
-<contenttweaker:crystal_core>.addTooltip(format.white("Before unlocking the Infused Diamond recipe,"));
-<contenttweaker:crystal_core>.addTooltip(format.white("it can only be ") + format.red("manually crafted") + format.white("."));
+<contenttweaker:crystal_core>.addTooltip(format.white("\u82e5\u4f7f\u7528\u6c34\u6676\u77f3\u914d\u65b9\u5408\u6210,"));
+<contenttweaker:crystal_core>.addTooltip(format.white("\u653e\u5165\u7684\u6c34\u6676\u77f3\u9700\u8981:"));
+<contenttweaker:crystal_core>.addTooltip(format.blue("\u5c3a\u5bf8 >= 300") + format.white(" \u548c ") + format.blue("\u7d14\u5ea6 >= 75%") + format.white("."));
+<contenttweaker:crystal_core>.addTooltip(format.white("\u5728\u89e3\u9396\u5145\u80fd\u947d\u77f3\u7684\u914d\u65b9\u524d,"));
+<contenttweaker:crystal_core>.addTooltip(format.white("\u53ea\u80fd ") + format.red("\u624b\u52d5\u5408\u6210") + format.white("."));
 
 # Celestial Crystal Core
 recipes.addShaped("celestial_crystal_core", <contenttweaker:celestial_crystal_core>, [[<contenttweaker:crystal_core>,<draconicevolution:chaotic_core>,<contenttweaker:crystal_core>],[<mysticalagradditions:storage:1>,<astralsorcery:itemcelestialcrystal>.marked("celestial_crystal"),<mysticalagradditions:storage:1>],[<contenttweaker:crystal_core>,<draconicevolution:chaotic_core>,<contenttweaker:crystal_core>]],
@@ -1531,11 +1531,11 @@ function(out,ins,cInfo) {
 	return null;
 }, null);
 recipes.addShaped(<contenttweaker:celestial_crystal_core>, [[<contenttweaker:crystal_core>,<draconicevolution:chaotic_core>,<contenttweaker:crystal_core>],[<mysticalagradditions:storage:1>,<avaritia:resource:3>,<mysticalagradditions:storage:1>],[<contenttweaker:crystal_core>,<draconicevolution:chaotic_core>,<contenttweaker:crystal_core>]]);
-<contenttweaker:celestial_crystal_core>.addTooltip(format.white("If using the Celestial Crystal recipe,"));
-<contenttweaker:celestial_crystal_core>.addTooltip(format.white("the input Celestial Crystal has to have:"));
-<contenttweaker:celestial_crystal_core>.addTooltip(format.blue("Size >= 700") + format.white(" and ") + format.blue("Purity >= 75%") + format.white("."));
-<contenttweaker:celestial_crystal_core>.addTooltip(format.white("Before unlocking the Neutronium Nugget recipe,"));
-<contenttweaker:celestial_crystal_core>.addTooltip(format.white("it can only be ") + format.red("manually crafted") + format.white("."));
+<contenttweaker:celestial_crystal_core>.addTooltip(format.white("\u82e5\u4f7f\u7528\u5929\u9ad4\u6c34\u6676\u77f3\u914d\u65b9\u5408\u6210,"));
+<contenttweaker:celestial_crystal_core>.addTooltip(format.white("\u653e\u5165\u7684\u5929\u9ad4\u6c34\u6676\u77f3\u9700\u8981:"));
+<contenttweaker:celestial_crystal_core>.addTooltip(format.blue("\u5c3a\u5bf8 >= 700") + format.white(" \u548c ") + format.blue("\u7d14\u5ea6 >= 75%") + format.white("."));
+<contenttweaker:celestial_crystal_core>.addTooltip(format.white("\u5728\u89e3\u9396\u4e2d\u5b50\u7d20\u9846\u7c92\u7684\u914d\u65b9\u524d,"));
+<contenttweaker:celestial_crystal_core>.addTooltip(format.white("\u53ea\u80fd ") + format.red("\u624b\u52d5\u5408\u6210") + format.white("."));
 
 # Photovoltaic Cell VII
 recipes.addShaped(<contenttweaker:photovoltaic_cell_vii> * 3, [[<ore:blockGlassMagenta>,<ore:blockGlassMagenta>,<ore:blockGlassMagenta>],[<draconicevolution:wyvern_energy_core>,<draconicevolution:wyvern_energy_core>,<draconicevolution:wyvern_energy_core>],[<solarflux:photovoltaic_cell_6>,<solarflux:photovoltaic_cell_6>,<solarflux:photovoltaic_cell_6>]]);
@@ -1617,18 +1617,18 @@ recipes.addShaped(<contenttweaker:compressed_perfectium_block>, [[<contenttweake
 
 # Solar Seeds
 # recipe in config/modularmachinery/recipes/weak_fusion_plant_contenttweaker_solar_seeds.json
-<contenttweaker:solar_seeds>.addTooltip(format.white("Can only be planted on Crop Sticks."));
+<contenttweaker:solar_seeds>.addTooltip(format.white("\u53ea\u80fd\u7a2e\u5728\u4f5c\u7269\u67b6\u4e0a."));
 
 # Apalachia Door Key from Fragments
 recipes.addShaped(<contenttweaker:apalachia_door_key>, [[<contenttweaker:apalachia_key_fragment>,<contenttweaker:apalachia_key_fragment>,<contenttweaker:apalachia_key_fragment>],[<contenttweaker:apalachia_key_fragment>,null,<contenttweaker:apalachia_key_fragment>],[<contenttweaker:apalachia_key_fragment>,<contenttweaker:apalachia_key_fragment>,<contenttweaker:apalachia_key_fragment>]]);
-<contenttweaker:apalachia_door_key2>.addTooltip(format.red("Use it the same way as the previous key to ascend further."));
+<contenttweaker:apalachia_door_key2>.addTooltip(format.red("\u7528\u548c\u524d\u4e00\u628a\u9470\u5319\u540c\u6a23\u7684\u65b9\u6cd5\u9032\u4e00\u6b65\u63d0\u5347."));
 
 # Skythern Door Key from Fragments
 recipes.addShaped(<contenttweaker:skythern_door_key2>, [[null,<contenttweaker:skythern_door_key_fragment>,null],[<contenttweaker:skythern_door_key_fragment>,<contenttweaker:skythern_door_key_fragment>,<contenttweaker:skythern_door_key_fragment>],[null,<contenttweaker:skythern_door_key_fragment>,null]]);
-<contenttweaker:skythern_door_key2>.addTooltip(format.red("Use it on the Skythern Boss Door!"));
+<contenttweaker:skythern_door_key2>.addTooltip(format.red("\u5728\u51b0\u523a\u738b\u9580\u4e0a\u4f7f\u7528!"));
 
 # Venus Boss Door Key tooltip
-<contenttweaker:venus_door_key2>.addTooltip(format.red("Right Click to clear any Venus Boss Door Blocks in a 5 block radius."));
+<contenttweaker:venus_door_key2>.addTooltip(format.red("\u53f3\u64ca\u6e05\u9664\u534a\u5f91 5 \u683c\u5167\u7684\u4efb\u4f55\u91d1\u661f\u738b\u9580\u65b9\u584a."));
 
 # Moon Door Key from Fragments
 recipes.addShaped(<contenttweaker:moon_door_key>, [[<contenttweaker:moon_key_fragment>,<contenttweaker:moon_key_fragment>,<contenttweaker:moon_key_fragment>]]);
@@ -1733,8 +1733,8 @@ mods.avaritia.Compressor.add("tnt_singularity", <contenttweaker:tnt_singularity>
 # recipe in config/brandon3055/CustomFusionRecipes.json
 
 # White Matter
-<contenttweaker:white_matter>.addTooltip(format.white("Can only be created from EMC."));
-<contenttweaker:white_matter>.addTooltip(format.white("Use the Tome of Knowledge to learn all transmutations."));
+<contenttweaker:white_matter>.addTooltip(format.white("\u53ea\u80fd\u4f7f\u7528EMC\u88fd\u4f5c."));
+<contenttweaker:white_matter>.addTooltip(format.white("\u4f7f\u7528\u7149\u91d1\u8853\u5bc6\u5377\u5b78\u6703\u6240\u6709\u8f49\u5316."));
 
 # Anti Air
 mods.abyssalcraft.InfusionRitual.addRitual("anti_air", 4, 53, 20000, false, <contenttweaker:anti_air>, <contenttweaker:white_matter>, [<extendedcrafting:singularity_custom:141>,<botania:manaresource:15>,<contenttweaker:anti_hydrogen>,<contenttweaker:rune_of_air>,<contenttweaker:condensed_vis_crystal_aer>,<botania:manaresource:15>,<contenttweaker:anti_hydrogen>,<contenttweaker:rune_of_air>], false);
@@ -1851,10 +1851,10 @@ function(out,ins,cInfo) {
 	}
 	return null;
 }, null);
-<contenttweaker:essence_of_logic>.addTooltip(format.white("Craft the Book of Logic and solve the puzzle!"));
-<contenttweaker:essence_of_logic>.addTooltip(format.white("Use Steve, Alex and Herobrine with the correct"));
-<contenttweaker:essence_of_logic>.addTooltip(format.white("Age, Number of friends and Height to craft this item!"));
-<contenttweaker:essence_of_logic>.addTooltip(format.white(format.bold("It can only be manually crafted!")));
+<contenttweaker:essence_of_logic>.addTooltip(format.white("\u5408\u6210 Book of Logic \u4e26\u89e3\u958b\u8b0e\u984c!"));
+<contenttweaker:essence_of_logic>.addTooltip(format.white("\u4f7f\u7528\u53f2\u8482\u592b, \u611b\u9e97\u514b\u7d72 \u548c HIM\u4e26\u7d66\u4e88"));
+<contenttweaker:essence_of_logic>.addTooltip(format.white("\u6b63\u78ba\u7684\u5e74\u7d00, \u670b\u53cb\u6578 \u548c \u9ad8\u5ea6, \u4f86\u5408\u6210\u6b64\u7269\u54c1!"));
+<contenttweaker:essence_of_logic>.addTooltip(format.white(format.bold("\u53ea\u80fd\u624b\u52d5\u5408\u6210!")));
 
 # Age Modifier
 recipes.addShapeless(<contenttweaker:age_modifier>, [<extrautils2:ingredients:9>,<minecraft:bone>]);
@@ -1983,7 +1983,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<extendedcrafting:singularit
 
 # Essence of Infinity
 mods.botania.RuneAltar.addRecipe(<contenttweaker:essence_of_infinity>, [<contenttweaker:essence_of_matter>,<contenttweaker:essence_of_time>,<contenttweaker:essence_of_repetition>], 50000000);
-<contenttweaker:essence_of_infinity>.addTooltip(format.white(format.bold("Requires 50 full Mana Pools to craft.")));
+<contenttweaker:essence_of_infinity>.addTooltip(format.white(format.bold("\u9700\u8981 50 \u76c6\u6eff\u7684\u9b54\u529b\u6c60\u5408\u6210.")));
 
 # Photovoltaic Cell IX
 recipes.addShaped(<contenttweaker:photovoltaic_cell_ix> * 3, [[<ore:blockGlassBlack>,<ore:blockGlassBlack>,<ore:blockGlassBlack>],[<draconicadditions:chaotic_energy_core>,<draconicadditions:chaotic_energy_core>,<draconicadditions:chaotic_energy_core>],[<contenttweaker:photovoltaic_cell_viii>,<contenttweaker:photovoltaic_cell_viii>,<contenttweaker:photovoltaic_cell_viii>]]);
@@ -2029,11 +2029,11 @@ recipes.addShaped(<contenttweaker:ultimate_machine_frame>, [[<rftools:creative_s
 
 # Colored Light Antigelatinous Yielding (C.L.A.Y.)
 # recipe in config/modularmachinery/recipes/liquicrafter_contenttweaker_clay.json
-<contenttweaker:clay>.addTooltip(format.darkPurple(format.italic("Finally balanced!")));
+<contenttweaker:clay>.addTooltip(format.darkPurple(format.italic("\u7d42\u65bc\u5e73\u8861\u4e86!")));
 
 # Nature's Blessing
 mods.botania.RuneAltar.addRecipe(<contenttweaker:natures_blessing>, [<botania:overgrowthseed>,<botania:overgrowthseed>,<botania:overgrowthseed>,<botania:overgrowthseed>,<contenttweaker:rune_of_pride>,<contenttweaker:rune_of_envy>,<contenttweaker:rune_of_wrath>,<contenttweaker:rune_of_sloth>,<contenttweaker:rune_of_greed>,<contenttweaker:rune_of_gluttony>,<contenttweaker:rune_of_lust>,<contenttweaker:rune_of_mana>,<contenttweaker:rune_of_deception>], 1000000);
-<contenttweaker:natures_blessing>.addTooltip(format.white("Requires 1 full Mana Pool to craft."));
+<contenttweaker:natures_blessing>.addTooltip(format.white("\u9700\u8981 1 \u76c6\u6eff\u7684\u9b54\u529b\u6c60\u5408\u6210."));
 
 # Reinforced Machine Accelerator
 recipes.addShaped(<contenttweaker:reinforced_machine_accelerator>, [[<alchemistry:ingot:104>,<bloodmagic:blood_rune:9>,<alchemistry:ingot:104>],[<bloodmagic:blood_rune:9>,<modularmachinery:blockcasing:4>,<bloodmagic:blood_rune:9>],[<alchemistry:ingot:104>,<bloodmagic:blood_rune:9>,<alchemistry:ingot:104>]]);
@@ -2069,11 +2069,11 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:unwarpification_ta
 [<projecte:item.pe_covalence_dust:2>, <alchemistry:ingot:96>, <bloodmagic:decorative_brick:2>, <alchemistry:ingot:96>, <projecte:item.pe_covalence_dust:2>], 
 [<thaumcraft:sanity_checker>, <botania:blackholetalisman>, <alchemistry:ingot:96>, <botania:blackholetalisman>, <thaumcraft:sanity_checker>], 
 [<extendedcrafting:singularity_custom:158>, <thaumcraft:sanity_checker>, <projecte:item.pe_covalence_dust:2>, <thaumcraft:sanity_checker>, <extendedcrafting:singularity_custom:158>]]);
-<contenttweaker:unwarpification_talisman>.addTooltip(format.white("Right Click to set your Thaumcraft Warp level to 0!"));
+<contenttweaker:unwarpification_talisman>.addTooltip(format.white("\u53f3\u64ca\u5c07\u79d8\u8853\u626d\u66f2\u7b49\u7d1a\u8a2d\u70ba 0 !"));
 
 # Goddess' Pearl
 mods.alchemistry.Combiner.addRecipe(<contenttweaker:goddess_pearl>, [<thaumcraft:primordial_pearl>,<alchemistry:ingot:12>,<thaumcraft:primordial_pearl>,<alchemistry:ingot:12>,<alchemistry:ingot:42>,<alchemistry:ingot:12>,<thaumcraft:primordial_pearl>,<alchemistry:ingot:12>,<thaumcraft:primordial_pearl>]);
-<contenttweaker:goddess_pearl>.addTooltip(format.red("Does not get consumed by regular crafting."));
-<contenttweaker:goddess_pearl>.addTooltip(format.red(format.bold("WARNING: ")) + format.gray(format.bold("AE2 consumes the item! Use an external crafter like an RFTools Crafter when using this item in your ME System!")));
+<contenttweaker:goddess_pearl>.addTooltip(format.red("\u6b63\u5e38\u7684\u5408\u6210\u4e0d\u6703\u6d88\u8017."));
+<contenttweaker:goddess_pearl>.addTooltip(format.red(format.bold("\u8b66\u544a: ")) + format.gray(format.bold("AE2\u6703\u6d88\u8017\u8a72\u7269\u54c1,\u7576\u5728ME\u7cfb\u7d71\u4e2d\u4f7f\u7528\u6642,\u4f7f\u7528\u984d\u5916\u7684\u5408\u6210\u5668\u5982RFtool\u81ea\u52d5\u5408\u6210\u6a5f!")));
 
 print("ENDING ContentTweakerRecipes.zs");
